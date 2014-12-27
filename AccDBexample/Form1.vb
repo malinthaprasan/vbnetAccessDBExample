@@ -3,6 +3,7 @@ Public Class Form1
     Dim cnn As New OleDb.OleDbConnection
     Dim dt As New DataTable
 
+	
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         cnn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=mydatabase.accdb"
         cnn.Open()
